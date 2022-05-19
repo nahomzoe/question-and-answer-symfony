@@ -27,7 +27,7 @@ class MainController extends AbstractController {
     public function question(): Response
     {
         
-        return $this->render('html/about.html.twig');
+        return $this->render('html/about.html.twig',['about' => './coming.mp4','slower' => './faster.mp4','stack' => './sleeping1.mp4','dog' => './dog.mp4']);
     }
 
 
@@ -60,7 +60,7 @@ class MainController extends AbstractController {
 
                 "What means symfony?",
                 
-                "Why we need PHP?",
+                "Why we need PHP? ",
                 
                 "What is twig for?",
                 

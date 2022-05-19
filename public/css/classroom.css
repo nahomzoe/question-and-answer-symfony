@@ -359,3 +359,8 @@
    color: var(--dialog-bg);
    text-shadow: black;
 }
+.ask1 {
+    border: solid 1px;
+    padding: 1rem 5rem 1rem 5rem;
+  
+  }

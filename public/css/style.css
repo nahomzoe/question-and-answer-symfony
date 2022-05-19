@@ -364,6 +364,13 @@ text-align: center;
  background-color: var(--dialog-bg);
  border-radius: 5px;
 }
+.ask1 {
+  border: solid 1px var(--hair-color2);
+  padding: 1rem 5rem 1rem 5rem;
+  background-color: #dbccba;
+  border-radius: 5px;
+
+}
 .ask:hover{
  /*submit button*/
  border-color: black;
